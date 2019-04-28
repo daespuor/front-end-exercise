@@ -15,3 +15,5 @@ La estructura del archivo debe ser:
 "02 Arequipa / 63 Arequipa / "
 "02 Arequipa / 64 Caylloma / "
 "02 Arequipa / 63 Arequipa / 267 Cercado"
+
+La función que hace la transformación es formatUbigeos
