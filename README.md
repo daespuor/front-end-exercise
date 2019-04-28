@@ -2,7 +2,7 @@ Front-end Exercise
 
 Ejercicio hecho en Javascript
 
-Debe cargarse el archivo data.txt por medio de la interfaz y el contenido aparecerá en las tablas y en la consola mostrando las estructuras (arrays)
+Debe cargarse el archivo data.txt por medio de la interfaz y el contenido aparecerá en las tablas y en la consola mostrando las estructuras (arrays). URL https://daespuor.github.io/front-end-exercise/
 
 La estructura del archivo debe ser:
 

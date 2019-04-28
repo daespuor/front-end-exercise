@@ -6,8 +6,12 @@ function transformUbigeos(evt){//Lee archivo
         cleanTables();
         fileReader.onload=()=>{
             const {result}=fileReader;
-            const formatedUbigeos=formatUbigeos(result.split(/\n/));
-            showUbigeos(formatedUbigeos);
+            try{
+                const formatedUbigeos=formatUbigeos(result.split(/\n/));
+                showUbigeos(formatedUbigeos);
+            }catch(err){
+                console.error(err);
+            }
         }
         fileReader.readAsText(file);
     }else{
